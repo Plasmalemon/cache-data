@@ -1,0 +1,32 @@
+{
+  "name": "cache-data",
+  "version": "1.0.0",
+  "description": "a middleware of koa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plasmalemon/cache-data.git"
+  },
+  "keywords": [
+    "cache-data",
+    "middleware"
+  ],
+  "author": "plasmalemon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Plasmalemon/cache-data/issues"
+  },
+  "homepage": "https://github.com/Plasmalemon/cache-data#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^2.0.2"
+  }
+}
